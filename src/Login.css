@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+ margin: 0%;
+ padding: 0%; 
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+
+
+.Page{
+position: fixed;
+
+background-color: #f0f8ff;
+
+height: 100%;  
+justify-content: space-around;
+display: flexbox;
+}
+.logcol{
+position: fixed;
+margin-left: 10%;
+width: 80%;
+height: 100%;  
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.coloneH{
+
+border-width: 1px;
+border-style: groove;
+border-color: #3D3D3D;
+    width: 16.5%;
+    height: 100%;
+   opacity: 0.3;
+   
+}
+
+    .carre{
+        width: 100%;
+        height: 25%;
+        background-color: #3D3D3D;
+    }
+    .un{
+        margin-top: 5%;
+    }
+    .deux{
+        margin-top: 200%;
+    }
+    .trois{
+        margin-top: -50%;
+    }
+    .quatre{
+        margin-top: 260%;
+
+    }
+    .cinq{
+        margin-top: 120%;
+
+    }
+    .six{
+        margin-top: 250%;
+
+    }
+    .sept{
+        margin-top: 20%;
+
+    }
+    .log{
+        position: fixed;
+        margin-left: 10%;
+     
+        width: 80%;
+        height: 100%;  
+        display: flex;
+        
+        flex-direction: row;
+        justify-content: space-around;
+        }
+    .logincent{
+        margin-top: 13%;
+        color:#f0f8ff;
+        width: 60%;
+        height: 70%;  
+        display: inline;
+        
+       
+
+    }
+    #Login{
+        font-size: 55px;
+        font-family: "Inter", sans-serif;
+        color: #FF7900;
+    }
+    #veil{
+        font-size: 22px;
+    }
+    .form{
+        width: 100%;
+        height: 100%;
+     
+        display: flex;
+       
+        
+    }
+    .form form{
+        
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    #username{
+        margin-top: 15%;
+        width: 160%;
+        height: 16%;
+        background-color: rgba(225, 121, 0, 0.17);
+       color: white;
+        border-style: none;
+        border-width: thick;
+        border-radius: 63px;
+        padding-left: 20px;
+        font-size: 25px;
+       
+    }
+    #username::placeholder{
+        
+        color: #ffff;
+        font-size: 25px
+       
+    }
+    #password{
+        margin-top: 15px;
+        padding-left: 20px;
+        width: 160%;
+        height: 16%;
+        font-size: 25px;
+        background-color: rgba(225, 121, 0, 0.17);
+        border-style: none;
+        border-width: thick;
+        border-radius: 63px;
+        color: #ffff;
+        
+        
+
+    }
+    #password::placeholder{
+        
+        color: #ffff;
+
+        font-size: 25px;
+       
+    }
+    #mp{
+        position: relative;
+        margin-top: 15%;
+        left: 100%;
+       
+    }
+    #mp a{
+        
+       color: #f0f8ff;
+       font-size: 20px;
+       
+    }
+    #submit{
+        position: relative;
+        margin-top: 15%;
+        left: 100%;
+        background-color: #FF7900;
+        border-radius: 63px;
+        border-style: none;
+        width: 110%;
+        height: 10%;
+        font-size: 25px;
+        font-family: "Inter", sans-serif;;
+        color: white;
+    }
